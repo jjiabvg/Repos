@@ -6,5 +6,4 @@ public class theactualthing {
 	//jIA
 	//jIA
 	//jIA
-	int one; 
 }

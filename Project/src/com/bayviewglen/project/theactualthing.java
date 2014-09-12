@@ -70,6 +70,29 @@ public class theactualthing extends java.lang.Object
 	}
 
 
+	public void next(double Number){
+		if(number == 0 ){
+			max = Number; 
+			min = Number;
+			number = 1; 
+			sum = Number; 
+		}
+		else
+		{
+			sum += Number;
+			if (number > max)
+				max = Number;
+			if (number < min)
+				min = Number;
+			number += number + 1;
+		}
+		}
+	public double sum()
+	{
+		if (number == 0)
+			return 0;
+		return sum;
+	}
 
 
 }
